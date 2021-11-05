@@ -16,7 +16,7 @@ const request = require('request');
 // };
 
 // const fetchCoordsByIP = (ip,callback) => {
-//   request(`https://api.freegeoip.app/json/${ip}?apikey=5310c960-3dcf-11ec-ace4-c7c5509d21d8`,(error,response,data) => {
+//   request(`https://api.freegeoip.app/json/${ip}?apikey=XXXXXXXXXXXXXXXXXXX`,(error,response,data) => {
 //     if (error) {
 //       callback(error,null);
 //     } else if (response.statusCode !== 200) {
@@ -59,7 +59,7 @@ const nextISSTimesForMyLocation = (callback) => {
       const result = JSON.parse(body);
       const ipValue = result.ip
       //callback(null,result.ip);
-      request(`https://api.freegeoip.app/json/${ipValue}?apikey=5310c960-3dcf-11ec-ace4-c7c5509d21d8`,(error,response,data) => {
+      request(`https://api.freegeoip.app/json/${ipValue}?apikey=XXXXXXXXXXXXXXXXXXXX`,(error,response,data) => {
         if (error) {
           callback(error,null);
         } else if (response.statusCode !== 200) {
