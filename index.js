@@ -9,7 +9,7 @@ const { fetchMyIP,fetchCoordsByIP,fetchISSFlyOverTimes } = require('./iss');
 //   console.log('It worked! Returned IP:' , ip);
 // });
 
-// fetchCoordsByIP('99.236.76.53',(error,geoCoords) => {
+// fetchCoordsByIP('IP address XXXXXXXX',(error,geoCoords) => {
 //   if (error) {
 //     console.log('Cant find the Geo coordinates');
 //     return;
@@ -17,7 +17,7 @@ const { fetchMyIP,fetchCoordsByIP,fetchISSFlyOverTimes } = require('./iss');
 //   console.log(`Your GeoCoordinates are: Latitude: ${geoCoords.latitude} and longitude: ${geoCoords.longitude}`);
 // });
 
-// const exampleCoords = { latitude: '49.27670', longitude: '-123.13000' };
+// const exampleCoords = { latitude: 'XXXXX', longitude: 'XXXXXXX' };
 
 // fetchISSFlyOverTimes(exampleCoords,(error,issCoords) => {
 //   if (error) {
